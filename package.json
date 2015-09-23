@@ -1,0 +1,24 @@
+{
+  "name": "plunker-schema",
+  "version": "1.0.0",
+  "description": "The validation logic for objects in Plunker.NEXT",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggoodman/plunker-schema.git"
+  },
+  "author": "Geoffrey Goodman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ggoodman/plunker-schema/issues"
+  },
+  "homepage": "https://github.com/ggoodman/plunker-schema#readme",
+  "dependencies": {
+    "joi": "^6.7.1",
+    "semver-regex": "^1.0.0",
+    "url-regex": "^3.0.0"
+  }
+}
