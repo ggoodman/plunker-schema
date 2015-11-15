@@ -4,10 +4,13 @@ module.exports = {
     entry: require('./schema/entry'),
     entryList: require('./schema/entryList'),
     jwt: require('./schema/jwt'),
+    packageName: require('./schema/packageName'),
     plunk: require('./schema/plunk'),
     plunkId: require('./schema/plunkId'),
     profile: require('./schema/profile'),
+    rid: require('./schema/rid'),
     sha: require('./schema/sha'),
+    slug: require('./schema/slug'),
     username: require('./schema/username'),
     userPayload: require('./schema/userPayload'),
 };
